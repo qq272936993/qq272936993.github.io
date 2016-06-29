@@ -605,7 +605,7 @@ strong {
 }
 
 .wrapper {
-  max-width: 800px;
+  max-width: 1000px;
   margin: 0 auto;
   position: relative;
   padding: 0 20px;
@@ -781,7 +781,7 @@ dt {
 }
 
 section {
-  max-width: 650px;
+  max-width: 1000px;
   padding: 30px 0px 50px 0px;
   margin: 20px 0;
   margin-top: 70px;
@@ -849,3 +849,37 @@ section #title .credits.right {
     display: none;
   }
 }
+
+.border_module{
+	border: dashed 1px #BABABA;
+}
+
+.border_module ul:FIRST-CHILD{
+	background-color: #BABABA;
+	height : 32px;
+}
+
+.border_module ul{
+	margin: 0px;
+	padding: 0px;
+}
+
+
+.border_module ul li {
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+}
+
+
+#links{
+	width: 190px;
+	float: left; 
+	margin-right: 10px;
+}
+
+#home_container{
+	width:796px;
+	float: left;
+}
+
